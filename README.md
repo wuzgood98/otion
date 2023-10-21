@@ -1,6 +1,6 @@
 # Fullstack Notion Clone: Next.js 13, React, Convex, Tailwind
 
-![Copy of Otion](public/readme.png)
+![Copy of Otion](./public/readme.png)
 
 This is a repository for Fullstack Notion Clone: Next.js 13, React, Convex, Tailwind
 
