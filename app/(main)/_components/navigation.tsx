@@ -2,7 +2,7 @@
 
 import { useMutation } from "convex/react";
 import { useParams, usePathname, useRouter } from "next/navigation";
-import { ElementRef, useEffect, useRef, useState } from "react";
+import { ElementRef, useCallback, useEffect, useRef, useState } from "react";
 import { useMedia } from "react-use";
 import { toast } from "sonner";
 
@@ -73,7 +73,7 @@ export function Navigation() {
     document.removeEventListener("mouseup", handleMouseUp);
   };
 
-  const resetWidth = () => {
+  const resetWidth = useCallback(() => {
     if (sidebarRef.current && navbarRef.current) {
       setIsCollapsed(false);
       setIsResetting(true);
@@ -86,7 +86,7 @@ export function Navigation() {
       navbarRef.current.style.setProperty("left", isMobile ? "100%" : "240px");
       setTimeout(() => setIsResetting(false), 300);
     }
-  };
+  }, [isMobile]);
 
   const collapse = () => {
     if (sidebarRef.current && navbarRef.current) {
@@ -118,7 +118,7 @@ export function Navigation() {
     } else {
       resetWidth();
     }
-  }, [isMobile]);
+  }, [isMobile, resetWidth]);
 
   useEffect(() => {
     if (isMobile) {
