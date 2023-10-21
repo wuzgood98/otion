@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Assembly 2.2 - http://assemblyapp.co -->
+
+<svg
+   version="1.1"
+   width="2048"
+   height="2048"
+   viewBox="0 0 2048 2048"
+   id="svg529"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs533" />
+  <g
+     id="document"
+     transform="translate(1024,1024)">
+    <path
+       d="m -461.948,369.011 -115.486,115.486 c 318.743,318.744 836.125,318.744 1154.868,0 L 461.948,369.01 c -255.226,255.227 -668.67,255.227 -923.896,0.001 z"
+       fill="#ffffff"
+       fill-opacity="1"
+       stroke-width="81.73"
+       stroke="#ffffff"
+       stroke-linecap="square"
+       stroke-linejoin="miter"
+       id="path526" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1332px;line-height:20.6;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:111.023"
+       x="-563.94202"
+       y="345.58243"
+       id="text1567"
+       transform="scale(0.9913431,1.0087325)"><tspan
+         id="tspan1565"
+         x="-519.94202"
+         y="345.58243"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1332px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:111.023">O</tspan></text>
+  </g>
+</svg>
