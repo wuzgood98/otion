@@ -30,6 +30,16 @@ export const metadata: Metadata = {
       },
     ],
   },
+  appleWebApp: {
+    capable: true,
+    title: "Otion",
+    statusBarStyle: "black",
+  },
+  applicationName: "Otion",
+  themeColor: [
+    { media: "(prefers-color-scheme: dark)", color: "#1f1f1f" },
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+  ],
 };
 
 export default function RootLayout({
