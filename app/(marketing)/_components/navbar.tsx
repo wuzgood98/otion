@@ -3,6 +3,7 @@
 import { SignInButton, UserButton } from "@clerk/clerk-react";
 import { useConvexAuth } from "convex/react";
 import Link from "next/link";
+import { redirect } from "next/navigation";
 
 import { ModeToggle } from "@/components/mode-toggle";
 import { Spinner } from "@/components/spinner";
@@ -15,6 +16,10 @@ import { cn } from "@/lib/utils";
 export function Navbar() {
   const { isAuthenticated, isLoading } = useConvexAuth();
   const scrolled = useScrollTop();
+
+  if (isAuthenticated) {
+    redirect("/documents");
+  }
 
   return (
     <div
