@@ -5,10 +5,10 @@ import { useRef, useState } from "react";
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { Skeleton } from "@/components/ui/skeleton";
 
 import { api } from "@/convex/_generated/api";
 import { Doc } from "@/convex/_generated/dataModel";
-import { Skeleton } from "@/components/ui/skeleton";
 
 interface TitleProps {
   initialData: Doc<"documents">;
