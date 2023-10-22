@@ -23,6 +23,7 @@ Key Features:
 - Landing page 🛬
 - Cover image of each document 🖼️
 - Recover deleted files 🔄📄
+- Native-Like Progressive Web App for iOS 📱
 
 ### Prerequisites
 
